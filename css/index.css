@@ -1,0 +1,85 @@
+* {
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#gameBox {}
+.btn {
+	margin-bottom: 3px;
+}
+button {
+	background-color: #FBF07B;
+	border: transparent;
+	padding: 5px 10px;
+	box-shadow: 1px 1px 1px #398BD1;
+}
+.factor {
+	display: flex;
+	justify-content: space-around;
+}
+.main {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.father {
+	display: flex;
+}
+
+.son {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #398BD1;
+	background-color: #FBF07B;
+	margin: 2px;
+	text-align: center;
+	border: 1px solid #888;
+	font-weight: bold;
+}
+
+.son:hover {
+	background-color: #fbc558;
+}
+
+.num1 {
+	color: #97CD1E;
+	background: white
+}
+
+.num2 {
+	color: #5BC297;
+	background: white
+}
+
+.num3 {
+	color: #398BD1;
+	background: white
+}
+
+.num4 {
+	color: #705CAC;
+	background: white
+}
+
+.num5 {
+	color: #9A54A3;
+	background: white
+}
+
+.num6 {
+	color: #9A54A3;
+	background: white
+}
+
+.num7 {
+	color: #F5624F;
+	background: white
+}
+
+.num8 {
+	color: #F3451C;
+	background: white
+}

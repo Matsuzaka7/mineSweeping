@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+
+	<body>
+		<div class="main">
+			<p>选择难度即开始</p>
+			<div class="btn">
+				<button class="nandu1">初级</button>
+				<button class="nandu2">中级</button>
+				<button class="nandu3">高级</button>
+			</div>
+			<div id="gameBox">
+
+			</div>
+			<div class="factor">
+				<div>时间飞速流逝中：<span id="timer">0</span></div>
+				<div>剩余旗帜个数：<span id="flag">0</span></div>
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js"></script>
+	<script>
+		// el(#gameBox)、容器大小、雷个数、计时器el(#timer)
+		let p
+		document.querySelector('.nandu1').addEventListener('click', () => {
+			p?.clearTimerOut()
+			p = new mineSweeping(10, 10)
+		}) 
+		document.querySelector('.nandu2').addEventListener('click', () => {
+			p?.clearTimerOut()
+			p = new mineSweeping(15, 40)
+		}) 
+		document.querySelector('.nandu3').addEventListener('click', () => {
+			p?.clearTimerOut()
+			p = new mineSweeping(20, 80)
+		}) 
+	</script>
+
+</html>
