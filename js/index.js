@@ -1,3 +1,6 @@
+
+// https://github.com/Matsuzaka7/mineSweeping
+
 window.addEventListener('contextmenu', (e) => {
 	e.preventDefault();
 })
